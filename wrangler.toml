@@ -1,0 +1,9 @@
+name = "tiktok-follower"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+TIKTOK_USERNAME = "azriel.py"
+
+[env.production]
+vars = { TIKTOK_USERNAME = "azriel.py" }
